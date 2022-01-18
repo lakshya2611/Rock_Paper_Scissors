@@ -33,6 +33,7 @@ btnContainer.forEach(function (btn) {
 
         let computer = random();
         chance.innerHTML = --ch;
+        console.log(ch);
         let player = btn.dataset.id;
 
         if (player === computer) {
